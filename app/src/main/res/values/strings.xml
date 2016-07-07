@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ABS of steel training</string>
+    <string name="wait">WAITING...</string>
+    <string name="default_series">SERIES 1</string>
+    <string name="choose_level">CHOOSE LEVEL</string>
+    <string name="menu_btn1">1</string>
+    <string name="menu_btn2">2</string>
+    <string name="menu_btn3">3</string>
+    <string name="menu_btn4">4</string>
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <include
+        android:id="@+id/toolbar_actionbar"
+        layout="@layout/toolbar_default"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_below="@+id/toolbar_actionbar"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/choose_level"
+            android:layout_marginBottom="@dimen/margin_small"/>
+
+        <Button
+            android:id="@+id/level1Btn"
+            android:layout_width="@dimen/round_btn_size"
+            android:layout_height="@dimen/round_btn_size"
+            android:text="@string/menu_btn1"
+            android:background="@drawable/round_button"
+            android:textColor="@color/white"
+            android:layout_marginBottom="@dimen/margin_small"/>
+
+        <Button
+            android:id="@+id/level2Btn"
+            android:layout_width="@dimen/round_btn_size"
+            android:layout_height="@dimen/round_btn_size"
+            android:text="@string/menu_btn2"
+            android:background="@drawable/round_button"
+            android:textColor="@color/white"
+            android:layout_marginBottom="@dimen/margin_small"/>
+
+        <Button
+            android:id="@+id/level3Btn"
+            android:layout_width="@dimen/round_btn_size"
+            android:layout_height="@dimen/round_btn_size"
+            android:text="@string/menu_btn3"
+            android:background="@drawable/round_button"
+            android:textColor="@color/white"
+            android:layout_marginBottom="@dimen/margin_small"/>
+
+        <Button
+            android:id="@+id/level4Btn"
+            android:layout_width="@dimen/round_btn_size"
+            android:layout_height="@dimen/round_btn_size"
+            android:text="@string/menu_btn4"
+            android:background="@drawable/round_button"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+</RelativeLayout>
